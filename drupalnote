@@ -1,0 +1,35 @@
+#installing new site with drupal
+1. create new database 
+2.extract drupal  folder
+3. copy folder under drupal 7.67
+4. rename it with database name and paste it in wamp www folder
+5. lang=eng
+6. select db name, db username and password(eg username= root,psw= none)
+7.enter site info:
+	eg	site name=megavision
+		site email for alerts  ====> this mail used to send and recieve mails
+		site maintainance account=>  admin mail
+		site username and password megavisionscans and admin@megavisionscans
+		country
+		checkboxes : check for updates and 
+		save and continue
+		
+##new theme download and keep it in
+   data wamp=>sites=>all=> themes 
+   eg download from https://ftp.drupal.org/files/projects/office_responsive_theme-7.x-1.3.zip
+   
+   
+## modules installing 
+   download its zip file =>extract and keep it in sites =>all=> modules
+	   1. empty front page
+	   2. filter
+	   3. admin menu
+## to delete cache
+		 configuration=>media=> file  system=>
+		  set same path  to public file path and temporary directory(copy path of public file path to temp dir)
+## update jquery to 1.7
+
+
+##ckeditor to install images and vedios 
+task//
+1. image block 
