@@ -9,6 +9,6 @@ print("union :",s1|s2)
 print("intersection is:",s1&s2)
 #elements in first set which are not in second set
 print("difference s1-s2 is:",s1-s2)
-print("difference s2-s1 is:",s2-s1)
+print("difference s2-s1 is given:",s2-s1)
 
 print("symmetric difference is:",s1^s2)
